@@ -5,9 +5,7 @@
 //  Created by Firat Karakuyu on 2019-09-06.
 //  Copyright © 2019 Firat Karakuyu. All rights reserved.
 //
-
 import UIKit
-
 class ViewController: UIViewController {
     @IBOutlet var questionLabel: UILabel!
     @IBOutlet var answerLabel: UILabel!
@@ -36,10 +34,9 @@ class ViewController: UIViewController {
         let answer: String = answers[currentQuestionIndex]
         answerLabel.text = answer
     }
-
     override func viewDidLoad(){
     super.viewDidLoad ()
         questionLabel.text = questions [currentQuestionIndex]
     }
-    
+
 }
