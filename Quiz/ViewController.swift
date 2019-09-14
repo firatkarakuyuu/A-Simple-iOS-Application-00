@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         "What is cognac made from?"
     ]
     let answers: [String] = [
-        "14",	
+        "14",
         "Montpelier",
         "Grapes"
     ]
